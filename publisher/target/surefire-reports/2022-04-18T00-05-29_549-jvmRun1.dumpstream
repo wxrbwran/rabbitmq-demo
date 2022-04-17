@@ -1,0 +1,41 @@
+# Created at 2022-04-18T00:06:09.923
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-04-18T00:06:10.578
+Unexpected IOException with stream: 04-18 00:06:10:576 ERROR 60449 --- [nectionFactory1] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@15233408(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.579
+Unexpected IOException with stream: 04-18 00:06:10:576 ERROR 60449 --- [nectionFactory4] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@425801f5(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.580
+Unexpected IOException with stream: 04-18 00:06:10:577 ERROR 60449 --- [nectionFactory5] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@69e59581(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.580
+Unexpected IOException with stream: 04-18 00:06:10:578 ERROR 60449 --- [nectionFactory7] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@96d8668(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.581
+Unexpected IOException with stream: 04-18 00:06:10:578 ERROR 60449 --- [nectionFactory9] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@69ae1de0(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.581
+Unexpected IOException with stream: 04-18 00:06:10:578 ERROR 60449 --- [nectionFactory1] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@4b055497(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.595
+Unexpected IOException with stream: 04-18 00:06:10:594 ERROR 60449 --- [nectionFactory1] cn.itcast.mq.config.CommonConfig         : 消息发送到队列失败，响应码：312, 失败原因：NO_ROUTE, 交换机: , 路由key：normal.queue, 消息: (Body:'[B@7ba29b9(byte[13])' MessageProperties [headers={}, contentType=application/octet-stream, contentLength=0, receivedDeliveryMode=NON_PERSISTENT, priority=0, deliveryTag=0])
+
+
+# Created at 2022-04-18T00:06:10.631
+Unexpected IOException with stream: 04-18 00:06:10:628  INFO 60449 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [103.105.200.216:5672]
+
+
