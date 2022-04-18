@@ -12,7 +12,7 @@ import java.time.LocalTime;
 import java.util.Map;
 
 @Component
-@Slf4j
+ @Slf4j
 public class SpringRabbitListener {
 
     // @RabbitListener(queues = "simple.queue")
@@ -108,5 +108,10 @@ public class SpringRabbitListener {
     ))
     public void listenDelayExchange(String msg) {
         log.info("消费者接收到了delay.queue的延迟消息");
+    }
+
+    @RabbitListener(queues = "lazy.queue")
+    public void listenLazyQueue(String msg) {
+        System.out.println("消费者接收到lazy.queue的消息：【" + msg + "】");
     }
 }
